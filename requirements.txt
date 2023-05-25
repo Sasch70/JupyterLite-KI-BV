@@ -46,7 +46,7 @@ plotly>=5,<6
 bqplot
 
 # Own packages
-tensorflow-mkl
+tensorflow
 Pillow
 matplotlib
 pandas
