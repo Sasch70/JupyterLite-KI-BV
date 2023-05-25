@@ -50,7 +50,7 @@ tensorflow-mkl
 Pillow
 matplotlib
 pandas
-tensorflow-datasets=4.6.0
+tensorflow-datasets
 scikit-learn
 
 
