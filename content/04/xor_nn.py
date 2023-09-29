@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 28 11:20:46 2022
+
+@author: stefan.kray
+"""
+
+import numpy as np
+hidden_weights=np.array([[20,  -20],
+                         [20, -20]])
+hidden_b=np.array([-10,+30])
+out_weights=np.array([20,20])
+out_b=np.array([-30])
+
+X = np.array([[0,0], [0,1], [1,0], [1,1]])
+print("Eingabe:")
+print(X)
+
+def threshold(x): 
+    return (x>0).astype(int)
+def sigmoid(x): 
+    return np.round(1/(1+ np.exp(-x)),2)
+    
+
+# --- code ab hier ---
